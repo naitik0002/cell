@@ -243,7 +243,7 @@ if st.session_state.generated and st.session_state.cells_data:
     
     with tab1:
         # Capacity bar chart
-        fig_capacity = py.bar(
+        fig_capacity = px.bar(
             df, 
             x='Cell ID', 
             y='Capacity (Wh)',
