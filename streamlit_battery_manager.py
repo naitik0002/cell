@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import random
+import pandas as pd
+import plotly.express as px
+import streamlit as st
+
 
 # Page configuration
 st.set_page_config(
